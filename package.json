@@ -1,0 +1,27 @@
+{
+  "name": "jichangshuju-biz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "机场数据 (jichangshuju.biz) — 中文网络服务结构化数据平台、品牌评测与网络性能数据库",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "npm run validate && npm run generate:data && vitepress build docs && npm run postbuild",
+    "preview": "vitepress preview docs",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate-data.mjs",
+    "generate:data": "node scripts/export-public-data.mjs",
+    "postbuild": "node scripts/postbuild-seo.mjs",
+    "qa": "node scripts/qa-audit.mjs",
+    "keywords:analyze": "node scripts/keyword-discovery.mjs"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

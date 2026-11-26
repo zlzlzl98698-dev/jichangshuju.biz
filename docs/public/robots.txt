@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Open structured data & AI crawler directory
+# llms.txt: https://jichangshuju.biz/llms.txt
+# llms-full.txt: https://jichangshuju.biz/llms-full.txt
+Sitemap: https://jichangshuju.biz/sitemap.xml

@@ -1,0 +1,14 @@
+[
+  {
+    "snapshotId": "ph-20260809",
+    "recordedAt": "2026-08-09",
+    "brandIds": ["lingdong", "langwang", "edgenova", "firefly"],
+    "summary": "录入灵动云(29项)、浪网(29项)、边缘节点 EdgeNova(18项)及 Firefly 萤火虫多周期历史价格档案；明确标注仅反映当时记录，非实时优惠价。"
+  },
+  {
+    "snapshotId": "ph-20261019",
+    "recordedAt": "2026-10-19",
+    "brandIds": ["guangsuyun", "muguang", "feimao", "weifeng", "xingdaomeng", "ermao", "wuyou", "weitu", "firefly", "u1s1", "lingmao", "yifan", "sogo", "shanyue", "quanqiu", "yinxingren"],
+    "summary": "主清单与光速云品牌资料归档；记录光速云 7 档完整价格（147元永久至680元定制）、微风 7元/11.4元冲突、灵猫 19元/25元冲突及隐形人 100GB/144GB 冲突。"
+  }
+]

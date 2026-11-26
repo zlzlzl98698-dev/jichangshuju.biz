@@ -1,0 +1,404 @@
+{
+  "pillars": [
+    {
+      "pillarUrl": "/recommend/",
+      "pillarName": "机场推荐",
+      "secondaryHubs": [
+        {
+          "url": "/recommend/rankings",
+          "name": "机场排行与评分口径",
+          "level3Articles": ["/recommend/how-to-judge-airport", "/recommend/node-count-myth"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng", "/brands/weitu", "/brands/feimao"],
+          "comparisons": ["/compare/guangsuyun-vs-muguang", "/compare/guangsuyun-vs-xingdaomeng"]
+        },
+        {
+          "url": "/recommend/reliable",
+          "name": "靠谱与老牌机场",
+          "level3Articles": ["/recommend/how-to-judge-airport", "/brands/how-to-verify-brand-authenticity"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/ermao", "/brands/xingdaomeng", "/brands/yifan"],
+          "comparisons": ["/compare/guangsuyun-vs-ermao"]
+        },
+        {
+          "url": "/recommend/stable",
+          "name": "稳定低丢包机场",
+          "level3Articles": ["/recommend/peak-hour-stability-test", "/network/speedtest-metrics-explained"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/weitu", "/brands/feimao"],
+          "comparisons": ["/compare/guangsuyun-vs-xingdaomeng"]
+        },
+        {
+          "url": "/recommend/beginner",
+          "name": "新手入门机场",
+          "level3Articles": ["/pricing/20-yuan-monthly-guide", "/risks/exclusive-client-lockin"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/feimao", "/brands/wuyou"],
+          "comparisons": ["/compare/guangsuyun-vs-feimao", "/compare/feimao-vs-xingdaomeng"]
+        },
+        {
+          "url": "/recommend/multi-device",
+          "name": "多设备与大流量",
+          "level3Articles": ["/guides/multi-device-same-subscription", "/pricing/100gb-vs-300gb-vs-500gb", "/guides/router-openwrt"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/muguang", "/brands/yifan", "/brands/xingdaomeng"],
+          "comparisons": ["/compare/guangsuyun-vs-muguang"]
+        },
+        {
+          "url": "/recommend/value",
+          "name": "高性价比推荐",
+          "level3Articles": ["/pricing/10-yuan-budget", "/pricing/20-yuan-monthly-guide", "/recommend/compare-same-price-airports"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng", "/brands/weitu", "/brands/firefly"],
+          "comparisons": ["/compare/weitu-vs-firefly", "/compare/budget-tier-56"]
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/pricing/",
+      "pillarName": "价格与套餐",
+      "secondaryHubs": [
+        {
+          "url": "/pricing/cheap",
+          "name": "便宜机场真实对比",
+          "level3Articles": ["/pricing/10-yuan-budget", "/pricing/20-yuan-monthly-guide"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/feimao", "/brands/firefly", "/brands/dalaoyun"],
+          "comparisons": ["/compare/budget-tier-56", "/compare/weitu-vs-firefly"]
+        },
+        {
+          "url": "/pricing/one-cent-airport",
+          "name": "一元/一分机场剖析",
+          "level3Articles": ["/pricing/10-yuan-budget", "/risks/payment-evidence-and-exit-checklist"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng"],
+          "comparisons": ["/compare/budget-tier-56"]
+        },
+        {
+          "url": "/pricing/monthly",
+          "name": "月付机场清单",
+          "level3Articles": ["/pricing/20-yuan-monthly-guide", "/pricing/100gb-vs-300gb-vs-500gb"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/weitu", "/brands/xingdaomeng", "/brands/yifan"],
+          "comparisons": ["/compare/guangsuyun-vs-xingdaomeng", "/compare/guangsuyun-vs-ermao"]
+        },
+        {
+          "url": "/pricing/annual",
+          "name": "年付机场算账",
+          "level3Articles": ["/pricing/10-yuan-budget", "/pricing/annual-monthly-math", "/risks/payment-evidence-and-exit-checklist"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/feimao", "/brands/ermao", "/brands/wuyou"],
+          "comparisons": ["/compare/guangsuyun-vs-feimao"]
+        },
+        {
+          "url": "/pricing/no-expiry",
+          "name": "不限时流量套餐",
+          "level3Articles": ["/pricing/monthly-vs-no-expiry", "/pricing/100gb-vs-300gb-vs-500gb", "/risks/payment-evidence-and-exit-checklist"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/muguang", "/brands/ermao", "/brands/wuyou"],
+          "comparisons": ["/compare/guangsuyun-vs-muguang", "/compare/guangsuyun-vs-ermao"]
+        },
+        {
+          "url": "/pricing/value",
+          "name": "每GB流量成本榜",
+          "level3Articles": ["/pricing/100gb-vs-300gb-vs-500gb", "/pricing/20-yuan-monthly-guide"],
+          "brandReviews": ["/brands/yifan", "/brands/muguang", "/brands/guangsuyun"],
+          "comparisons": ["/compare/guangsuyun-vs-muguang"]
+        },
+        {
+          "url": "/pricing/traffic-cost",
+          "name": "流量倍率与成本公式",
+          "level3Articles": ["/pricing/100gb-vs-300gb-vs-500gb", "/pricing/10-yuan-budget"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng", "/brands/weitu"],
+          "comparisons": []
+        },
+        {
+          "url": "/pricing/coupons",
+          "name": "机场优惠码大全",
+          "level3Articles": ["/pricing/20-yuan-monthly-guide", "/pricing/10-yuan-budget"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/feimao", "/brands/xingdaomeng"],
+          "comparisons": ["/compare/guangsuyun-vs-feimao"]
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/brands/",
+      "pillarName": "机场品牌",
+      "secondaryHubs": [
+        {
+          "url": "/brands/",
+          "name": "机场品牌总库",
+          "level3Articles": ["/brands/how-to-verify-brand-authenticity", "/brands/maintenance-vs-shutdown"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/muguang", "/brands/feimao", "/brands/xingdaomeng"],
+          "comparisons": ["/compare/guangsuyun-vs-feimao", "/compare/guangsuyun-vs-muguang", "/compare/budget-tier-56"]
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/vpn/",
+      "pillarName": "VPN 与加速器",
+      "secondaryHubs": [
+        {
+          "url": "/vpn/pricing-comparison",
+          "name": "VPN 与机场价格对比",
+          "level3Articles": ["/vpn/vpn-vs-proxy-architecture", "/vpn/common-vpn-protocols", "/pricing/20-yuan-monthly-guide"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng"],
+          "comparisons": []
+        },
+        {
+          "url": "/vpn/windows",
+          "name": "Windows VPN 与代理选型",
+          "level3Articles": ["/vpn/vpn-vs-proxy-architecture", "/vpn/device-network-tool-matrix", "/clients/mihomo-vs-singbox-vs-flclash", "/diagnostics/clash-tun-conflict"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/vpn/mobile",
+          "name": "手机 VPN 与移动代理",
+          "level3Articles": ["/vpn/vpn-vs-proxy-architecture", "/vpn/device-network-tool-matrix", "/clients/iphone-shadowrocket-setup-errors"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/vpn/game-accelerators",
+          "name": "游戏加速器 vs 机场代理",
+          "level3Articles": ["/vpn/vpn-vs-proxy-architecture", "/network/vless-reality-vs-hy2"],
+          "brandReviews": [],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/clients/",
+      "pillarName": "客户端软件",
+      "secondaryHubs": [
+        {
+          "url": "/clients/windows",
+          "name": "Windows 代理客户端",
+          "level3Articles": ["/clients/mihomo-vs-singbox-vs-flclash", "/diagnostics/clash-tun-conflict"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/clash-verge",
+          "name": "Clash Verge Rev 教程",
+          "level3Articles": ["/guides/clash-verge-merge-script", "/clients/clash-verge-launch-fix", "/diagnostics/clash-tun-conflict", "/clients/mihomo-vs-singbox-vs-flclash"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/shadowrocket",
+          "name": "Shadowrocket 小火箭",
+          "level3Articles": ["/clients/iphone-shadowrocket-setup-errors", "/risks/shared-apple-id-risks", "/risks/exclusive-client-lockin"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/ios",
+          "name": "iOS 苹果客户端大全",
+          "level3Articles": ["/clients/iphone-shadowrocket-setup-errors", "/risks/shared-apple-id-risks", "/clients/mihomo-vs-singbox-vs-flclash"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/android",
+          "name": "Android 安卓客户端",
+          "level3Articles": ["/clients/mihomo-vs-singbox-vs-flclash", "/diagnostics/wifi-ok-or-mobile-fails"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/macos",
+          "name": "macOS 苹果电脑客户端",
+          "level3Articles": ["/clients/mihomo-vs-singbox-vs-flclash", "/guides/clash-verge-merge-script"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/linux-openwrt",
+          "name": "Linux 与 OpenWrt 软路由",
+          "level3Articles": ["/guides/router-openwrt", "/clients/singbox-config-guide", "/clients/mihomo-vs-singbox-vs-flclash"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/clients/v2rayn",
+          "name": "v2rayN 多核心使用",
+          "level3Articles": ["/clients/mihomo-vs-singbox-vs-flclash", "/diagnostics/connected-but-no-internet"],
+          "brandReviews": [],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/streaming-ai/",
+      "pillarName": "AI 与流媒体",
+      "secondaryHubs": [
+        {
+          "url": "/streaming-ai/chatgpt",
+          "name": "ChatGPT / Claude / Gemini 选区",
+          "level3Articles": ["/streaming-ai/claude-access-and-ban-guide", "/streaming-ai/gemini-region-and-error-fix", "/network/hongkong-vs-japan-nodes"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/sujie", "/brands/yifan"],
+          "comparisons": []
+        },
+        {
+          "url": "/streaming-ai/netflix",
+          "name": "Netflix 与 Disney+ 解锁",
+          "level3Articles": ["/streaming-ai/netflix-originals-vs-full", "/network/hongkong-vs-japan-nodes", "/pricing/100gb-vs-300gb-vs-500gb"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/lingdong", "/brands/xingdaomeng"],
+          "comparisons": []
+        },
+        {
+          "url": "/streaming-ai/youtube-tiktok",
+          "name": "YouTube 送中与 TikTok",
+          "level3Articles": ["/streaming-ai/youtube-slow-or-cn-fix", "/network/hongkong-vs-japan-nodes", "/streaming-ai/gemini-region-and-error-fix"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/wuyou", "/brands/yifan"],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/network/",
+      "pillarName": "线路与节点",
+      "secondaryHubs": [
+        {
+          "url": "/network/regions",
+          "name": "五大节点地区性能",
+          "level3Articles": ["/network/hongkong-vs-japan-nodes", "/network/speedtest-metrics-explained"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/weitu", "/brands/feimao"],
+          "comparisons": []
+        },
+        {
+          "url": "/network/iepl",
+          "name": "IEPL 专线详解",
+          "level3Articles": ["/network/speedtest-metrics-explained", "/recommend/peak-hour-stability-test"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng", "/brands/ermao"],
+          "comparisons": ["/compare/guangsuyun-vs-xingdaomeng"]
+        },
+        {
+          "url": "/network/iplc",
+          "name": "IPLC 与 IEPL 差异",
+          "level3Articles": ["/network/speedtest-metrics-explained", "/network/vless-reality-vs-hy2"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/weitu", "/brands/firefly"],
+          "comparisons": ["/compare/weitu-vs-firefly"]
+        },
+        {
+          "url": "/network/bgp-transit",
+          "name": "BGP 中转 vs 公网直连",
+          "level3Articles": ["/network/vless-reality-vs-hy2", "/network/isp-routing-differences", "/network/campus-company-network", "/recommend/peak-hour-stability-test"],
+          "brandReviews": ["/brands/lingmao", "/brands/dalaoyun"],
+          "comparisons": []
+        },
+        {
+          "url": "/network/multiplier-native-ip",
+          "name": "线路倍率与原生 IP",
+          "level3Articles": ["/pricing/100gb-vs-300gb-vs-500gb", "/streaming-ai/claude-access-and-ban-guide"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/weitu", "/brands/yifan"],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/guides/",
+      "pillarName": "使用教程",
+      "secondaryHubs": [
+        {
+          "url": "/guides/clash-rules",
+          "name": "Clash 分流规则配置",
+          "level3Articles": ["/guides/clash-verge-merge-script", "/streaming-ai/claude-access-and-ban-guide"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/guides/plan-selection",
+          "name": "多设备与套餐选型",
+          "level3Articles": ["/guides/multi-device-same-subscription", "/pricing/100gb-vs-300gb-vs-500gb", "/guides/router-openwrt"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/muguang"],
+          "comparisons": []
+        },
+        {
+          "url": "/guides/subscription",
+          "name": "机场订阅导入教程",
+          "level3Articles": ["/guides/router-openwrt", "/clients/iphone-shadowrocket-setup-errors"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/guides/tun-dns",
+          "name": "TUN 模式与 DNS 配置",
+          "level3Articles": ["/diagnostics/clash-tun-conflict", "/diagnostics/connected-but-no-internet"],
+          "brandReviews": [],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/diagnostics/",
+      "pillarName": "故障排查",
+      "secondaryHubs": [
+        {
+          "url": "/diagnostics/all-timeout",
+          "name": "全部节点超时排查",
+          "level3Articles": ["/diagnostics/wifi-ok-or-mobile-fails", "/diagnostics/connected-but-no-internet"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/diagnostics/dns-speed",
+          "name": "DNS 错误与网速慢排查",
+          "level3Articles": ["/diagnostics/clash-tun-conflict", "/diagnostics/connected-but-no-internet", "/network/speedtest-metrics-explained"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/diagnostics/subscription-failed",
+          "name": "订阅更新失败排查",
+          "level3Articles": ["/diagnostics/empty-subscription-200", "/diagnostics/wifi-ok-or-mobile-fails", "/clients/iphone-shadowrocket-setup-errors"],
+          "brandReviews": [],
+          "comparisons": []
+        },
+        {
+          "url": "/diagnostics/ai-streaming-errors",
+          "name": "AI 与流媒体报错排查",
+          "level3Articles": ["/streaming-ai/claude-access-and-ban-guide", "/streaming-ai/gemini-region-and-error-fix"],
+          "brandReviews": [],
+          "comparisons": []
+        }
+      ]
+    },
+    {
+      "pillarUrl": "/risks/",
+      "pillarName": "风险与替代",
+      "secondaryHubs": [
+        {
+          "url": "/risks/exit-scam-warning",
+          "name": "机场跑路预警与避坑",
+          "level3Articles": ["/risks/payment-evidence-and-exit-checklist", "/brands/maintenance-vs-shutdown", "/brands/how-to-verify-brand-authenticity"],
+          "brandReviews": ["/brands/lingdong", "/brands/langwang", "/brands/edgenova"],
+          "comparisons": ["/compare/budget-tier-56"]
+        },
+        {
+          "url": "/risks/alternatives",
+          "name": "品牌替代方案矩阵",
+          "level3Articles": ["/risks/exclusive-client-lockin", "/risks/payment-evidence-and-exit-checklist"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/xingdaomeng", "/brands/tiziyun"],
+          "comparisons": ["/compare/guangsuyun-vs-feimao", "/compare/feimao-vs-xingdaomeng"]
+        },
+        {
+          "url": "/risks/safety-refund",
+          "name": "退款政策与安全性",
+          "level3Articles": ["/risks/payment-evidence-and-exit-checklist", "/guides/multi-device-same-subscription"],
+          "brandReviews": ["/brands/guangsuyun", "/brands/yinxingren", "/brands/yifan"],
+          "comparisons": []
+        }
+      ]
+    }
+  ],
+  "commercialBrandPlans": [
+    "/brands/guangsuyun/plans",
+    "/brands/muguang/plans",
+    "/brands/feimao/plans",
+    "/brands/xingdaomeng/plans",
+    "/brands/ermao/plans",
+    "/brands/weitu/plans",
+    "/brands/yifan/plans",
+    "/brands/wuyou/plans",
+    "/brands/firefly/plans",
+    "/brands/weifeng/plans",
+    "/brands/yinxingren/plans",
+    "/brands/u1s1/plans",
+    "/brands/lingmao/plans",
+    "/brands/sogo/plans",
+    "/brands/shanyue/plans",
+    "/brands/quanqiu/plans"
+  ]
+}

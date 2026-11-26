@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# VitePress build & cache artifacts
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log

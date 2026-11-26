@@ -1,0 +1,1317 @@
+[
+  {
+    "testId": "st-guangsuyun-20261019",
+    "brandId": "guangsuyun",
+    "batchLabel": "2026-10-19 非晚高峰记录 + 2026-08-19 三网 MiaoKo 实测 + 2026-08-11 截图",
+    "testDate": "2026-10-19",
+    "testTime": "非晚高峰",
+    "testPeriod": "非晚高峰（原文明确标注）",
+    "networkEnvironment": "资料表原文标注非晚高峰；另附 2026-08-19 长沙电信/广西移动/河北联通@2Gbps 及珠海联通 9Gbps MiaoKo 实测截图",
+    "testTool": "MiaoKo 4.3.3 / MAI-TEST-BOT",
+    "protocolDisplayed": "Shadowsocks (62节点) & VLESS/AnyTLS (70节点)",
+    "sampleSize": "5大区汇总 + 62/70节点实测截图",
+    "sourceId": "src-guangsuyun-miaoko-20260819",
+    "imagePath": "/assets/speedtests/光速云-节点测速实测.png",
+    "extraImages": [
+      {
+        "label": "SC-长沙电信@2Gbps (62节点 Shadowsocks 测速+解锁)",
+        "path": "/assets/guangsuyun/photo_2026-08-19_12-13-01.jpg",
+        "env": "长沙电信 2Gbps / 6线程",
+        "protocol": "Shadowsocks",
+        "summary": "香港专线 TLS RTT 20-31ms，平均 35-43MB/s；新加坡 35-43MB/s；日本 40-49MB/s"
+      },
+      {
+        "label": "SC-广西移动@2Gbps (62节点 Shadowsocks 测速+解锁)",
+        "path": "/assets/guangsuyun/photo_2026-08-19_12-13-50.jpg",
+        "env": "广西移动 2Gbps / 6线程",
+        "protocol": "Shadowsocks",
+        "summary": "新加坡01 平均 53.12MB/s，日本01 平均 52.89MB/s，香港专线19 平均 52.04MB/s"
+      },
+      {
+        "label": "河北联通@2Gbps (62节点 Shadowsocks 测速+解锁)",
+        "path": "/assets/guangsuyun/photo_2026-08-19_12-13-58.jpg",
+        "env": "河北联通 2Gbps / 6线程",
+        "protocol": "Shadowsocks",
+        "summary": "新加坡01 平均 41.85MB/s，台湾03 平均 37.49MB/s，香港专线07 平均 35.93MB/s"
+      },
+      {
+        "label": "珠海联通 9Gbps 单线程 基础流媒体矩阵 (70节点)",
+        "path": "/assets/guangsuyun/photo_2026-08-19_12-18-40.jpg",
+        "env": "珠海联通 9Gbps 单线程",
+        "protocol": "VLESS (60) + AnyTLS (10)",
+        "summary": "日本/美国/新加坡节点 OpenAI 多显示解锁；台湾与新加坡部分节点 YouTube 显示送中(CN)"
+      },
+      {
+        "label": "珠海联通 9Gbps 单线程 订阅速度 (70节点)",
+        "path": "/assets/guangsuyun/photo_2026-08-19_12-20-10.jpg",
+        "env": "珠海联通 9Gbps 单线程",
+        "protocol": "VLESS",
+        "summary": "香港平均速度 375-424MB/s（最高499MB/s），美国 313-358MB/s（美国02异常1.6KB）"
+      }
+    ],
+    "dataStatus": "measured",
+    "limitations": [
+      "2026-10-19 表为非晚高峰数据，不可直接当成晚高峰结论",
+      "不同日期与后端带宽不可横向直接排序"
+    ],
+    "nodeSamples": [
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "SC-长沙电信@2Gbps (6线程)",
+        "region": "香港专线(20)",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "20–31ms",
+        "httpsLatencyRange": "81–111ms",
+        "avgSpeedRange": "35.35–42.57 MB/s",
+        "maxSpeedRange": "最高 53.19 MB/s",
+        "unlockSummary": "Disney+/Netflix/YT解锁(HK)；OpenAI仅APP(HK)；Gemini失败"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "SC-长沙电信@2Gbps (6线程)",
+        "region": "日本(10)",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "71–86ms",
+        "httpsLatencyRange": "219–248ms",
+        "avgSpeedRange": "39.92–49.38 MB/s",
+        "maxSpeedRange": "最高 55.72 MB/s",
+        "unlockSummary": "Disney+/Netflix/YT/OpenAI解锁(JP)；Gemini失败"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "SC-长沙电信@2Gbps (6线程)",
+        "region": "新加坡(10)",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "58–65ms",
+        "httpsLatencyRange": "172–197ms",
+        "avgSpeedRange": "34.93–42.75 MB/s",
+        "maxSpeedRange": "最高 45.75 MB/s",
+        "unlockSummary": "Disney+/Netflix/YT/OpenAI/Gemini全解锁(SG)"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "SC-长沙电信@2Gbps (6线程)",
+        "region": "美国(10)",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "205–219ms",
+        "httpsLatencyRange": "635–681ms",
+        "avgSpeedRange": "29.81–34.85 MB/s",
+        "maxSpeedRange": "最高 50.69 MB/s",
+        "unlockSummary": "Disney+/Netflix/OpenAI解锁(US)；Gemini失败"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "SC-广西移动@2Gbps (6线程)",
+        "region": "新加坡/日本/香港",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "22–80ms",
+        "httpsLatencyRange": "86–248ms",
+        "avgSpeedRange": "33.09–53.12 MB/s",
+        "maxSpeedRange": "最高 58.94 MB/s",
+        "unlockSummary": "新加坡01/日本01均速超52MB/s；德国01异常跌至43.08KB/s"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "河北联通@2Gbps (6线程)",
+        "region": "新加坡/台湾/香港",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "53–192ms",
+        "httpsLatencyRange": "210–1879ms",
+        "avgSpeedRange": "18.90–41.85 MB/s",
+        "maxSpeedRange": "最高 49.72 MB/s",
+        "unlockSummary": "新加坡01最高41.85MB/s；部分香港专线HTTPS延迟1200ms+"
+      },
+      {
+        "batch": "2026-08-19 MiaoKo",
+        "carrierOrEnv": "珠海联通@9Gbps (单线程)",
+        "region": "香港(20)/美国(10)/新加坡(10)",
+        "protocol": "VLESS + AnyTLS",
+        "tlsRttRange": "108–290ms",
+        "httpsLatencyRange": "433–1430ms",
+        "avgSpeedRange": "香港375–424 / 美国313–358 MB/s",
+        "maxSpeedRange": "最高 500.78 MB/s",
+        "unlockSummary": "日本/美国/新加坡OpenAI广泛解锁；新加坡/台湾部分YT送中(CN)；美国02异常1.6KB"
+      },
+      {
+        "batch": "2026-08-11 14:32",
+        "carrierOrEnv": "珠海联通@5Gbps (32线程)",
+        "region": "港/台/新/日/美(54节点)",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "14–201ms",
+        "httpsLatencyRange": "34–408ms",
+        "avgSpeedRange": "54.20–75.07 MB/s (TW04 8.4MB)",
+        "maxSpeedRange": "最高 127.04 MB/s",
+        "unlockSummary": "HK02显示0B；全表综合均速60.95MB/s"
+      }
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港汇总",
+        "latencyMs": 22,
+        "downloadMbps": 529,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾汇总",
+        "latencyMs": 41,
+        "downloadMbps": 114,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡汇总",
+        "latencyMs": 46,
+        "downloadMbps": 387,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本汇总",
+        "latencyMs": 57,
+        "downloadMbps": 135,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国汇总",
+        "latencyMs": 143,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-muguang-20261019",
+    "brandId": "muguang",
+    "batchLabel": "2026-10-19 非晚高峰汇总记录",
+    "testDate": "2026-10-19",
+    "testTime": null,
+    "testPeriod": "非晚高峰",
+    "networkEnvironment": "非晚高峰历史记录（无原始截图附带）",
+    "testTool": "资料表记录",
+    "protocolDisplayed": null,
+    "sampleSize": "5个地区节点汇总",
+    "sourceId": "src-brand-roster-32",
+    "imagePath": null,
+    "dataStatus": "historical",
+    "limitations": [
+      "单次非晚高峰历史记录，缺少原始测速截图文件"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 26,
+        "downloadMbps": 509,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 419,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 150,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 160,
+        "downloadMbps": 19,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-feimao-20261019",
+    "brandId": "feimao",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 08:52 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 08:52:30 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 早间测试",
+    "networkEnvironment": "PNG: MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps / 32线程）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + 2026-08-11 PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/飞猫云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "2026-10-19 为非晚高峰记录；2026-08-11 截图测于早间 08:52",
+      "截图平均速度列存在bot单位显示异常(显示595MB级)，以最大速度列及10-19表为准"
+    ],
+    "nodeSamples": [
+      {
+        "batch": "2026-08-11 08:52",
+        "carrierOrEnv": "珠海联通 32线程",
+        "region": "香港专线01–20",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "16–82ms",
+        "httpsLatencyRange": "34–49ms",
+        "avgSpeedRange": "见原图注释",
+        "maxSpeedRange": "59.57–81.00 MB/s",
+        "unlockSummary": "延迟稳定，香港专线19峰值81.00MB/s"
+      },
+      {
+        "batch": "2026-08-11 08:52",
+        "carrierOrEnv": "珠海联通 32线程",
+        "region": "新加坡/日本/台湾/美国",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "45–212ms",
+        "httpsLatencyRange": "105–574ms",
+        "avgSpeedRange": "见原图注释",
+        "maxSpeedRange": "55.28–86.47 MB/s",
+        "unlockSummary": "泰国01(6.42MB)与德国01(3.45MB)峰值较低"
+      }
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 21,
+        "downloadMbps": 526,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 116,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 45,
+        "downloadMbps": 413,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 54,
+        "downloadMbps": 138,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 178,
+        "downloadMbps": 14,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-weifeng-20261019",
+    "brandId": "weifeng",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 PNG",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 PNG",
+    "testPeriod": "非晚高峰",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/微风-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "单日快照，非晚高峰"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 25,
+        "downloadMbps": 546,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 115,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 384,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 54,
+        "downloadMbps": 131,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 167,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-xingdaomeng-20261019",
+    "brandId": "xingdaomeng",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 01:48 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 01:48:13 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 凌晨测试",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/星岛梦-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "PNG测于凌晨01:48非高峰，不可推断晚高峰表现"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 504,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 103,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 411,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 136,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 177,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-ermao-20261019",
+    "brandId": "ermao",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 10:45 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 10:45:27 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 上午测试",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/二猫云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "含新加坡节点但介绍文案声称缺新加坡(CF-004)；非晚高峰测试"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 22,
+        "downloadMbps": 481,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 118,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 407,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 143,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 134,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-wuyou-20261019",
+    "brandId": "wuyou",
+    "batchLabel": "2026-10-19 非晚高峰 + 历史截图归档",
+    "testDate": "2026-10-19",
+    "testTime": null,
+    "testPeriod": "非晚高峰",
+    "networkEnvironment": "资料表非晚高峰记录（附历史测速图 无忧链接.jpg）",
+    "testTool": "资料表记录",
+    "protocolDisplayed": null,
+    "sampleSize": "5大区汇总",
+    "sourceId": "src-brand-roster-32",
+    "imagePath": "/assets/speedtests/无忧链接.jpg",
+    "dataStatus": "historical",
+    "limitations": [
+      "非晚高峰数据，未附原始参数脚本"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 531,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 41,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 418,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 55,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 145,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-weitu-20261019",
+    "brandId": "weitu",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 13:55 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 13:55:08 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 午后测试",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/唯兔云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "午后与非晚高峰快照"
+    ],
+    "nodeSamples": [
+      {
+        "batch": "2026-08-11 13:55",
+        "carrierOrEnv": "珠海联通@5Gbps (32线程)",
+        "region": "香港BGP-IEPL01–20",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "19–30ms",
+        "httpsLatencyRange": "43–86ms",
+        "avgSpeedRange": "40.75–65.38 MB/s",
+        "maxSpeedRange": "最高 73.79 MB/s",
+        "unlockSummary": "全线BGP-IEPL低延迟"
+      },
+      {
+        "batch": "2026-08-11 13:55",
+        "carrierOrEnv": "珠海联通@5Gbps (32线程)",
+        "region": "日本/新加坡/台湾/美国",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "60–336ms",
+        "httpsLatencyRange": "127–596ms",
+        "avgSpeedRange": "26.41–63.34 MB/s",
+        "maxSpeedRange": "最高 92.83 MB/s",
+        "unlockSummary": "马来西亚01-02与新加坡07显示0B"
+      }
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 500,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 37,
+        "downloadMbps": 100,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 414,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 56,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 179,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-firefly-20261019",
+    "brandId": "firefly",
+    "batchLabel": "2026-10-19 非晚高峰记录",
+    "testDate": "2026-10-19",
+    "testTime": null,
+    "testPeriod": "非晚高峰",
+    "networkEnvironment": "资料表非晚高峰记录",
+    "testTool": "资料表记录",
+    "protocolDisplayed": "VLESS",
+    "sampleSize": "5大区汇总",
+    "sourceId": "src-brand-roster-32",
+    "imagePath": null,
+    "dataStatus": "historical",
+    "limitations": [
+      "缺少原始测速 PNG 图片"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 27,
+        "downloadMbps": 547,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 135,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 445,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 143,
+        "downloadMbps": 30,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-yuzhou-20260811",
+    "brandId": "yuzhou",
+    "batchLabel": "2026-08-11 21:04 晚间实测截图（2026-10-19 文字表暂无）",
+    "testDate": "2026-08-11",
+    "testTime": "2026-08-11 21:04:24 CST",
+    "testPeriod": "晚间 21:04 测试",
+    "networkEnvironment": "主端 4.3.3 (696) / 喵速 4.7.0 (A11-32) · 珠海联通 9Gbps",
+    "testTool": "主端 4.3.3 / 喵速 4.7.0",
+    "protocolDisplayed": "VLESS",
+    "sampleSize": "原始节点测速截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/宇宙云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "主清单 #10 标注暂无可核实文字汇总表(CF-007)，此处仅展示 2026-08-11 实测截图证据"
+    ],
+    "nodeSamples": [
+      {
+        "batch": "2026-08-11 21:04",
+        "carrierOrEnv": "珠海联通@9Gbps (32线程)",
+        "region": "香港01–15",
+        "protocol": "VLESS",
+        "tlsRttRange": "91–121ms",
+        "httpsLatencyRange": "446–830ms",
+        "avgSpeedRange": "470.34–550.00 MB/s (HK01 0B)",
+        "maxSpeedRange": "最高 634.84 MB/s",
+        "unlockSummary": "UDP普遍为FullCone"
+      },
+      {
+        "batch": "2026-08-11 21:04",
+        "carrierOrEnv": "珠海联通@9Gbps (32线程)",
+        "region": "新加坡/日本/台湾/美国",
+        "protocol": "VLESS",
+        "tlsRttRange": "86–247ms",
+        "httpsLatencyRange": "430–2091ms",
+        "avgSpeedRange": "新331–523 / 日22–170 / 美8–12 MB/s",
+        "maxSpeedRange": "最高 569.38 MB/s",
+        "unlockSummary": "新加坡07异常9.60KB；多数节点FullCone"
+      }
+    ],
+    "metrics": []
+  },
+  {
+    "testId": "st-u1s1-20261019",
+    "brandId": "u1s1",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 22:33 晚间实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 22:33:29 CST (PNG截图)",
+    "testPeriod": "非晚高峰 (10-19) / 晚间 22:33 (08-11)",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/U1S1-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "两个批次时间与时段不同"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 24,
+        "downloadMbps": 538,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 107,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 414,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 133,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 134,
+        "downloadMbps": 20,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-lingmao-20261019",
+    "brandId": "lingmao",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 18:45 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 18:45:40 CST (PNG截图)",
+    "testPeriod": "非晚高峰 (10-19) / 傍晚 18:45 (08-11)",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/灵猫网络-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "单日快照"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 22,
+        "downloadMbps": 492,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 109,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 46,
+        "downloadMbps": 409,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 147,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 164,
+        "downloadMbps": 19,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-jilian-20260811",
+    "brandId": "jilian",
+    "batchLabel": "2026-08-11 22:46 实测截图",
+    "testDate": "2026-08-11",
+    "testTime": "2026-08-11 22:46:50 CST",
+    "testPeriod": "夜间 22:46 测试",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps / 32线程）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "原始节点测速截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/极连云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "缺少 2026-10-19 五地区汇总数字表"
+    ],
+    "metrics": []
+  },
+  {
+    "testId": "st-guangnian-20260811",
+    "brandId": "guangnian",
+    "batchLabel": "2026-08-11 14:38 实测截图",
+    "testDate": "2026-08-11",
+    "testTime": "2026-08-11 14:38:04 CST",
+    "testPeriod": "午后 14:38 非晚高峰",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps / 32线程）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "原始节点测速截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/光年梯-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "缺少 2026-10-19 五地区汇总数字表"
+    ],
+    "metrics": []
+  },
+  {
+    "testId": "st-yifan-20261019",
+    "brandId": "yifan",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 00:21 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 00:21:30 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 凌晨 00:21",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/一翻云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "非晚高峰及凌晨测试"
+    ],
+    "nodeSamples": [
+      {
+        "batch": "2026-08-11 00:21",
+        "carrierOrEnv": "珠海联通@5Gbps (32线程)",
+        "region": "香港01–20",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "16–101ms",
+        "httpsLatencyRange": "39–118ms",
+        "avgSpeedRange": "42.70–92.27 MB/s (HK01 0B)",
+        "maxSpeedRange": "最高 98.24 MB/s",
+        "unlockSummary": "凌晨00:21极速表现，多数HK节点均速80–92MB/s"
+      },
+      {
+        "batch": "2026-08-11 00:21",
+        "carrierOrEnv": "珠海联通@5Gbps (32线程)",
+        "region": "台湾/新加坡/日本/美国",
+        "protocol": "Shadowsocks",
+        "tlsRttRange": "54–162ms",
+        "httpsLatencyRange": "110–627ms",
+        "avgSpeedRange": "25.82–89.00 MB/s",
+        "maxSpeedRange": "最高 149.82 MB/s",
+        "unlockSummary": "美国01–10均速61–81MB/s、最高149.82MB/s"
+      }
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 477,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 40,
+        "downloadMbps": 117,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 42,
+        "downloadMbps": 390,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 136,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 180,
+        "downloadMbps": 20,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-sogo-20261019",
+    "brandId": "sogo",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 18:57 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 18:57:59 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 傍晚 18:57",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/SOGO云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "协议存在文图差异(CF-010/Shadowsocks)"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 26,
+        "downloadMbps": 488,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 39,
+        "downloadMbps": 118,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 43,
+        "downloadMbps": 401,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 57,
+        "downloadMbps": 137,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 140,
+        "downloadMbps": 17,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-kexin-20260811",
+    "brandId": "kexin",
+    "batchLabel": "2026-08-11 15:32 实测截图（日期由压缩包批次推断）",
+    "testDate": "2026-08-11",
+    "testTime": "15:32:35 CST（完整年月日截图未全显）",
+    "testPeriod": "午后 15:32 非晚高峰",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "原始节点测速截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/可信云-节点测速实测.png",
+    "dataStatus": "pending",
+    "limitations": [
+      "manifest 注明完整日期被裁切，按压缩包批次暂记为 2026-08-11(CF-012)",
+      "缺少 AI 与流媒体实测"
+    ],
+    "metrics": []
+  },
+  {
+    "testId": "st-sujie-20260811",
+    "brandId": "sujie",
+    "batchLabel": "2026-08-11 15:39 实测截图",
+    "testDate": "2026-08-11",
+    "testTime": "2026-08-11 15:39:36 CST",
+    "testPeriod": "午后 15:39 非晚高峰",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "原始节点测速截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/速界-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "缺少 2026-10-19 五地区汇总数字表"
+    ],
+    "metrics": []
+  },
+  {
+    "testId": "st-shanyue-20261019",
+    "brandId": "shanyue",
+    "batchLabel": "2026-10-19 非晚高峰记录",
+    "testDate": "2026-10-19",
+    "testTime": null,
+    "testPeriod": "非晚高峰",
+    "networkEnvironment": "资料表非晚高峰记录",
+    "testTool": "资料表记录",
+    "protocolDisplayed": null,
+    "sampleSize": "5大区汇总",
+    "sourceId": "src-brand-roster-32",
+    "imagePath": null,
+    "dataStatus": "historical",
+    "limitations": [
+      "无对应原始测速截图"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 23,
+        "downloadMbps": 548,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 38,
+        "downloadMbps": 110,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 44,
+        "downloadMbps": 383,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 53,
+        "downloadMbps": 144,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 143,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-quanqiu-20261019",
+    "brandId": "quanqiu",
+    "batchLabel": "2026-10-19 非晚高峰 + 2026-08-11 15:50 实测图",
+    "testDate": "2026-10-19",
+    "testTime": "2026-08-11 15:50:43 CST (PNG截图)",
+    "testPeriod": "非晚高峰 / 午后 15:50",
+    "networkEnvironment": "MAI-TEST-BOT 2.0.0-dev（珠海联通 5Gbps）",
+    "testTool": "MAI-TEST-BOT 2.0.0-dev",
+    "protocolDisplayed": "Shadowsocks",
+    "sampleSize": "5大区汇总 + PNG截图",
+    "sourceId": "src-speedtest-zip-20260811",
+    "imagePath": "/assets/speedtests/全球云-节点测速实测.png",
+    "dataStatus": "measured",
+    "limitations": [
+      "单日快照"
+    ],
+    "metrics": [
+      {
+        "region": "香港",
+        "nodeName": "香港",
+        "latencyMs": 25,
+        "downloadMbps": 489,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "台湾",
+        "nodeName": "台湾",
+        "latencyMs": 37,
+        "downloadMbps": 117,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "新加坡",
+        "nodeName": "新加坡",
+        "latencyMs": 45,
+        "downloadMbps": 430,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "日本",
+        "nodeName": "日本",
+        "latencyMs": 55,
+        "downloadMbps": 133,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      },
+      {
+        "region": "美国",
+        "nodeName": "美国",
+        "latencyMs": 138,
+        "downloadMbps": 18,
+        "uploadMbps": null,
+        "packetLoss": null,
+        "jitterMs": null
+      }
+    ]
+  },
+  {
+    "testId": "st-lingdong-20260720",
+    "brandId": "lingdong",
+    "batchLabel": "2026-07-20/21 珠海联通 9Gbps 实测摘要",
+    "testDate": "2026-07-20",
+    "testTime": "2026-07-20/21",
+    "testPeriod": "历史单批次实测",
+    "networkEnvironment": "珠海联通 9Gbps（60 测速 / 60 解锁样本）",
+    "testTool": "未标注工具名（60 测速 / 60 解锁）",
+    "protocolDisplayed": "VLESS",
+    "sampleSize": "60测速 / 60解锁",
+    "sourceId": "src-brand-roster-32",
+    "imagePath": null,
+    "dataStatus": "historical",
+    "limitations": [
+      "速度区间约 20–80 MB/s（160–640 Mbps），HTTPS延迟偏高，美国01整节点失败，新/台YT送中，TikTok多失败"
+    ],
+    "metrics": []
+  }
+]

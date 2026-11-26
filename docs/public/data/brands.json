@@ -1,0 +1,1030 @@
+[
+  {
+    "brandId": "guangsuyun",
+    "name": "光速云",
+    "slug": "guangsuyun",
+    "aliases": [
+      "光速云机场",
+      "GSY",
+      "GuangSuYun"
+    ],
+    "foundedYear": 2020,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks",
+      "AnyTLS"
+    ],
+    "networkTypes": [
+      "IEPL专线",
+      "企业级内网专线",
+      "全球IPLC",
+      "隧道中转"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "马来西亚",
+      "英国",
+      "法国",
+      "德国",
+      "土耳其",
+      "泰国",
+      "巴西"
+    ],
+    "deviceLimit": "不限设备",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT"
+    ],
+    "completenessScore": 96,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/guangsuyun"
+  },
+  {
+    "brandId": "muguang",
+    "name": "暮光加速",
+    "slug": "muguang",
+    "aliases": [
+      "muguang",
+      "暮光云",
+      "Twilight"
+    ],
+    "foundedYear": 2023,
+    "protocols": [
+      "待核实"
+    ],
+    "networkTypes": [
+      "BGP智能调度",
+      "专线级出口"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "支持多设备同时在线（具体上限待核实）",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 72,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/muguang"
+  },
+  {
+    "brandId": "feimao",
+    "name": "飞猫云",
+    "slug": "feimao",
+    "aliases": [
+      "feimao",
+      "FlyCat"
+    ],
+    "foundedYear": 2023,
+    "protocols": [
+      "Shadowsocks（2026-08-11 测速截图显示）"
+    ],
+    "networkTypes": [
+      "亚太与欧美线路（专线级别未强调）"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 78,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/feimao"
+  },
+  {
+    "brandId": "weifeng",
+    "name": "微风网络",
+    "slug": "weifeng",
+    "aliases": [
+      "weifeng",
+      "微风",
+      "BreezeNet"
+    ],
+    "foundedYear": 2023,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图显示）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 76,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/weifeng"
+  },
+  {
+    "brandId": "dalaoyun",
+    "name": "大佬云",
+    "slug": "dalaoyun",
+    "aliases": [
+      "dalaoyun",
+      "DaLaoYun"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 44,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/dalaoyun"
+  },
+  {
+    "brandId": "xingdaomeng",
+    "name": "星岛梦",
+    "slug": "xingdaomeng",
+    "aliases": [
+      "xingdaomeng",
+      "StarIsland"
+    ],
+    "foundedYear": 2020,
+    "protocols": [
+      "Trojan（正文标注）",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国",
+      "东南亚"
+    ],
+    "deviceLimit": "不限设备",
+    "officialClient": "pending",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 80,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/xingdaomeng"
+  },
+  {
+    "brandId": "yinxingren",
+    "name": "隐形人",
+    "slug": "yinxingren",
+    "aliases": [
+      "yinxingren",
+      "Invisible",
+      "隐形人机场"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "未标注"
+    ],
+    "networkTypes": [
+      "企业级IPLC专线直连"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "美国",
+      "新加坡",
+      "台湾"
+    ],
+    "deviceLimit": "存在“多设备同时在线”与“设备数量以套餐而定”两种表述",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 66,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/yinxingren"
+  },
+  {
+    "brandId": "ermao",
+    "name": "二猫云",
+    "slug": "ermao",
+    "aliases": [
+      "ermao",
+      "2mao",
+      "二猫"
+    ],
+    "foundedYear": 2023,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "全线IEPL专线"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡（仅测速表出现，介绍文案称缺新加坡）",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "账号不限设备连接数",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 80,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/ermao"
+  },
+  {
+    "brandId": "wuyou",
+    "name": "无忧链接",
+    "slug": "wuyou",
+    "aliases": [
+      "wuyou",
+      "WorryFree"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "待核实"
+    ],
+    "networkTypes": [
+      "未明确标注专线/中转架构（标称全线无倍率、不限速）"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 74,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/wuyou"
+  },
+  {
+    "brandId": "weitu",
+    "name": "唯兔云",
+    "slug": "weitu",
+    "aliases": [
+      "weitu",
+      "V2Yun",
+      "v2云"
+    ],
+    "foundedYear": 2023,
+    "protocols": [
+      "Trojan（正文标注）",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "IPLC专线",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备连接",
+    "officialClient": "pending",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 82,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/weitu"
+  },
+  {
+    "brandId": "firefly",
+    "name": "Firefly",
+    "slug": "firefly",
+    "aliases": [
+      "Firefly 萤火虫",
+      "萤火虫",
+      "firefly"
+    ],
+    "foundedYear": null,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IPLC专线",
+      "原生IP"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限客户端及设备数量",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "支付宝",
+      "USDT（历史资料注明无微信）"
+    ],
+    "completenessScore": 84,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/firefly"
+  },
+  {
+    "brandId": "yuzhou",
+    "name": "宇宙云",
+    "slug": "yuzhou",
+    "aliases": [
+      "yuzhou",
+      "YuzhouCloud"
+    ],
+    "foundedYear": null,
+    "protocols": [
+      "VLESS（早期资料与 2026-08-11 截图显示）"
+    ],
+    "networkTypes": [
+      "IEPL专线（汇总表）",
+      "三网优化",
+      "智能负载均衡"
+    ],
+    "regions": [
+      "待核实（2026-08-11 截图含主流节点）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 48,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/yuzhou"
+  },
+  {
+    "brandId": "u1s1",
+    "name": "U1S1",
+    "slug": "u1s1",
+    "aliases": [
+      "u1s1",
+      "有一说一"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "Shadowsocks（2026-08-11 测速截图显示）"
+    ],
+    "networkTypes": [
+      "IPLC专线"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备同时连接",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 76,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/u1s1"
+  },
+  {
+    "brandId": "lingmao",
+    "name": "灵猫网络",
+    "slug": "lingmao",
+    "aliases": [
+      "lingmao",
+      "灵猫",
+      "CivetNet"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "Shadowsocks（2026-08-11 测速截图显示）"
+    ],
+    "networkTypes": [
+      "中转优化线路"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "美国",
+      "新加坡"
+    ],
+    "deviceLimit": "不限设备使用",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 78,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/lingmao"
+  },
+  {
+    "brandId": "jilian",
+    "name": "极连云",
+    "slug": "jilian",
+    "aliases": [
+      "jilian",
+      "JiLianYun"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "Shadowsocks（2026-08-11 测速截图显示）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实（2026-08-11 截图含实测节点）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 52,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/jilian"
+  },
+  {
+    "brandId": "guangnian",
+    "name": "光年梯",
+    "slug": "guangnian",
+    "aliases": [
+      "guangnian",
+      "LightYear"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实（2026-08-11 截图含实测节点）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 54,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/guangnian"
+  },
+  {
+    "brandId": "yifan",
+    "name": "一翻云",
+    "slug": "yifan",
+    "aliases": [
+      "yifan",
+      "1fly",
+      "1flyun"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "Hysteria 2",
+      "VLESS-Reality",
+      "Shadowsocks"
+    ],
+    "networkTypes": [
+      "IEPL物理专线",
+      "原生住宅IP"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "不限设备数量",
+    "officialClient": "pending",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 82,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/yifan"
+  },
+  {
+    "brandId": "sogo",
+    "name": "SOGO 云",
+    "slug": "sogo",
+    "aliases": [
+      "sogo",
+      "SOGO云",
+      "SogoCloud"
+    ],
+    "foundedYear": 2026,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "全线IEPL专线",
+      "三网BGP优化"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "日本",
+      "新加坡",
+      "美国",
+      "韩国等15个国家和地区"
+    ],
+    "deviceLimit": "不限设备数量",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 80,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/sogo"
+  },
+  {
+    "brandId": "kexin",
+    "name": "可信云",
+    "slug": "kexin",
+    "aliases": [
+      "kexin",
+      "Kosing"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实（2026-08-11 截图含节点表现）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "pending",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 54,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/kexin"
+  },
+  {
+    "brandId": "sujie",
+    "name": "速界",
+    "slug": "sujie",
+    "aliases": [
+      "sujie",
+      "SpeedWorld"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS",
+      "Shadowsocks（2026-08-11 测速截图）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实（2026-08-11 截图含节点实测）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 56,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/sujie"
+  },
+  {
+    "brandId": "shanyue",
+    "name": "闪跃",
+    "slug": "shanyue",
+    "aliases": [
+      "shanyue",
+      "FlashLeap"
+    ],
+    "foundedYear": null,
+    "protocols": [
+      "未标注"
+    ],
+    "networkTypes": [
+      "纯IPLC专线",
+      "骨干网接入"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 72,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/shanyue"
+  },
+  {
+    "brandId": "quanqiu",
+    "name": "全球云",
+    "slug": "quanqiu",
+    "aliases": [
+      "quanqiu",
+      "GlobalCloud"
+    ],
+    "foundedYear": 2026,
+    "protocols": [
+      "Trojan",
+      "Shadowsocks"
+    ],
+    "networkTypes": [
+      "IPLC/IEPL专线中转",
+      "BGP智能优化"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国（资料称覆盖全球60+节点）"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "exclusive",
+    "thirdPartySupport": "no",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 78,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/quanqiu"
+  },
+  {
+    "brandId": "shandianshu",
+    "name": "闪电鼠",
+    "slug": "shandianshu",
+    "aliases": [
+      "shandianshu",
+      "LightningMouse"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 44,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/shandianshu"
+  },
+  {
+    "brandId": "yunjiexian",
+    "name": "云界线",
+    "slug": "yunjiexian",
+    "aliases": [
+      "yunjiexian",
+      "CloudBoundary"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 44,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/yunjiexian"
+  },
+  {
+    "brandId": "liulianyun",
+    "name": "榴莲云",
+    "slug": "liulianyun",
+    "aliases": [
+      "liulianyun",
+      "DurianCloud"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "未统一提供"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 42,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/liulianyun"
+  },
+  {
+    "brandId": "shenxing",
+    "name": "神行加速",
+    "slug": "shenxing",
+    "aliases": [
+      "shenxing",
+      "ShenXing"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 44,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/shenxing"
+  },
+  {
+    "brandId": "huanqiuti",
+    "name": "环球梯",
+    "slug": "huanqiuti",
+    "aliases": [
+      "huanqiuti",
+      "GlobalLadder"
+    ],
+    "foundedYear": 2024,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 44,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/huanqiuti"
+  },
+  {
+    "brandId": "tiziyun",
+    "name": "梯子云",
+    "slug": "tiziyun",
+    "aliases": [
+      "tiziyun",
+      "LadderCloud"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "VLESS"
+    ],
+    "networkTypes": [
+      "IEPL专线",
+      "2Gbps+独立带宽（标称含500Mbps高峰冗余）"
+    ],
+    "regions": [
+      "香港",
+      "日本",
+      "新加坡",
+      "美国",
+      "台湾"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "yes",
+    "thirdPartySupport": "yes",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 58,
+    "verifiedAt": "2026-10-19",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/tiziyun"
+  },
+  {
+    "brandId": "lingdong",
+    "name": "灵动云",
+    "slug": "lingdong",
+    "aliases": [
+      "lingdong",
+      "灵动"
+    ],
+    "foundedYear": 2025,
+    "protocols": [
+      "VLESS（实测）",
+      "Trojan（页面文案混提）"
+    ],
+    "networkTypes": [
+      "IEPL专线"
+    ],
+    "regions": [
+      "香港",
+      "台湾",
+      "新加坡",
+      "日本",
+      "美国（含2026-07实测节点记录）"
+    ],
+    "deviceLimit": "不限速不限设备（历史资料）",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "支付宝",
+      "USDT（微信需联系客服，历史资料）"
+    ],
+    "completenessScore": 74,
+    "verifiedAt": "2026-08-09",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/lingdong"
+  },
+  {
+    "brandId": "langwang",
+    "name": "浪网",
+    "slug": "langwang",
+    "aliases": [
+      "langwang",
+      "WaveNet"
+    ],
+    "foundedYear": null,
+    "protocols": [
+      "待核实"
+    ],
+    "networkTypes": [
+      "IEPL专线（截图标注）"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实（截图遮挡）",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "待核实"
+    ],
+    "completenessScore": 40,
+    "verifiedAt": "2026-08-09",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/langwang"
+  },
+  {
+    "brandId": "edgenova",
+    "name": "边缘节点 EdgeNova",
+    "slug": "edgenova",
+    "aliases": [
+      "EdgeNova",
+      "edgenova",
+      "边缘节点"
+    ],
+    "foundedYear": null,
+    "protocols": [
+      "待核实"
+    ],
+    "networkTypes": [
+      "高速直连",
+      "IPLC",
+      "多线路自动分配"
+    ],
+    "regions": [
+      "待核实"
+    ],
+    "deviceLimit": "待核实",
+    "officialClient": "pending",
+    "thirdPartySupport": "pending",
+    "paymentMethods": [
+      "支付宝",
+      "微信",
+      "USDT（历史资料）"
+    ],
+    "completenessScore": 50,
+    "verifiedAt": "2026-08-09",
+    "updatedAt": "2026-11-26",
+    "canonicalUrl": "https://jichangshuju.biz/brands/edgenova"
+  }
+]

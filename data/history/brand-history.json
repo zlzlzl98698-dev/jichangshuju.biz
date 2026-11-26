@@ -1,0 +1,9 @@
+[
+  { "date": "2026-07-21", "brandId": "lingdong", "event": "珠海联通 9Gbps 60 测速 / 60 解锁样本实测归档（OpenAI 全解锁，美国01整节点失败，TikTok多失败）。", "sourceId": "src-brand-roster-32" },
+  { "date": "2026-08-09", "brandId": "firefly", "event": "历史品牌库记录“Firefly 萤火虫”多周期套餐与支付宝/USDT 支付方式，邀请码 jTp9wSgZ。", "sourceId": "src-brand-roster-32" },
+  { "date": "2026-08-11", "brandId": "global", "event": "完成 16 张 1122×1402 PNG 节点测速截图批次归档（含光速云、宇宙云、SOGO云等 15 个在库品牌及快狸库外资产）。", "sourceId": "src-speedtest-zip-20260811" },
+  { "date": "2026-08-19", "brandId": "guangsuyun", "event": "新增 5 张 MiaoKo 测速与基础流媒体截图（长沙电信/广西移动/河北联通@2Gbps 及珠海联通 9Gbps）。", "sourceId": "src-guangsuyun-miaoko-20260819" },
+  { "date": "2026-10-01", "brandId": "firefly", "event": "2026年10月起切换为官方专属客户端下载登录即用模式，不再提供通用订阅链接（同步影响飞猫云、无忧链接、灵猫网络客户端策略记录）。", "sourceId": "src-brand-roster-32" },
+  { "date": "2026-10-19", "brandId": "global", "event": "完成 32 条原始资料审计与 31 个唯一品牌实体核对，记录 2026-10-19 非晚高峰节点汇总表。", "sourceId": "src-brand-roster-32" },
+  { "date": "2026-11-26", "brandId": "global", "event": "jichangshuju.biz（机场数据）全站数据结构化上线：合并 Firefly/萤火虫实体，建立 18 条来源冲突与数据缺口台账。", "sourceId": "src-content-matrix" }
+]

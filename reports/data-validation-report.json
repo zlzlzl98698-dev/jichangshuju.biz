@@ -1,0 +1,14 @@
+{
+  "validatedAt": "2026-11-26T09:10:54.284Z",
+  "counts": {
+    "brands": 31,
+    "plans": 157,
+    "speedtests": 21,
+    "availabilityEntries": 73,
+    "clients": 22,
+    "conflicts": 18,
+    "keywords": 71
+  },
+  "errors": [],
+  "warnings": []
+}

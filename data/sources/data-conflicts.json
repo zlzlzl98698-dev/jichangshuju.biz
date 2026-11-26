@@ -1,0 +1,233 @@
+[
+  {
+    "conflictId": "CF-001",
+    "brandId": "guangsuyun",
+    "brandName": "光速云",
+    "field": "轻量版月流量 / 线路描述 / 实测协议",
+    "values": [
+      "光速云品牌信息.txt 摘要标注“8元/月，59GB”，详细套餐表标注“轻量版 99元/年 69GB/月”",
+      "线路描述同时出现 IEPL专线、企业级内网专线、全球IPLC 与 IPLC+隧道中转",
+      "品牌资料标注 VLESS 协议，2026-08-11 截图显示 Shadowsocks，2026-08-19 MiaoKo 截图同时存在 62节点 Shadowsocks 与 70节点 VLESS/AnyTLS"
+    ],
+    "resolution": "年付轻量版暂以详细套餐表 99元/年（折合8.25元/月）与 69GB/月入库并标注 59GB/69GB 冲突待核实；线路与协议按具体套餐及测试批次分别呈现，不强行合并。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-002",
+    "brandId": "firefly",
+    "brandName": "Firefly",
+    "field": "实体合并（Firefly 与 Firefly 萤火虫）/ 推广代码 / 使用方式",
+    "values": [
+      "主清单 #8 Firefly 使用 ?code=2n7VURre，标注“专属客户端，不提供订阅链接（2026年10月起）”",
+      "补充记录 Firefly 萤火虫（2026-08-09）使用 ?code=jTp9wSgZ，包含季/半年/年/两年/三年多周期价格及支付宝/USDT说明"
+    ],
+    "resolution": "按同品牌实体合并为 firefly，推广链接主用 #8 记录并保留历史代码对照；客户端方式标注 2026年10月起切换专属客户端的时序变更。",
+    "status": "已归档合并",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-003",
+    "brandId": "weifeng",
+    "brandName": "微风网络",
+    "field": "入门年付价格与流量",
+    "values": [
+      "顶部基础数据标注“年付约7元/月 50GB/月”",
+      "套餐表与说明正文标注“清风 (Breeze) 年付 ¥137 100GB/月（11元/月起）”"
+    ],
+    "resolution": "保留套餐表 ¥137/年（折合 11.42元/月）100GB/月为主表数据，同时记录顶部 7元/50GB 摘要冲突待核实。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-004",
+    "brandId": "ermao",
+    "brandName": "二猫云",
+    "field": "新加坡节点与月付/年付起步口径",
+    "values": [
+      "介绍说明写“比不少同类机场少了新加坡这一站”",
+      "2026-10-19 测速表包含“新加坡 46ms 407Mbps”；套餐含二猫年付小包 ¥89（折合7.42元/月）及白猫月付 ¥20"
+    ],
+    "resolution": "正文如实披露“介绍文案称缺新加坡节点但 2026-10-19 测速表有新加坡记录”的矛盾，年付小包与月付门槛分开标示。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-005",
+    "brandId": "muguang",
+    "brandName": "暮光加速",
+    "field": "优惠码与起步价口径",
+    "values": [
+      "基础数据标注优惠码 muguang5555，月付基础版 ¥20/120GB",
+      "介绍正文称“9元/月起（年付轻量版 ¥109）”且写“目前没有查到公开的优惠码信息”"
+    ],
+    "resolution": "以结构化字段保留 muguang5555 并注明介绍文本与头部数据存在优惠码记录冲突，需以官网结算页为准。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-006",
+    "brandId": "xingdaomeng",
+    "brandName": "星岛梦",
+    "field": "协议类型",
+    "values": [
+      "介绍正文明确写“Trojan 协议”",
+      "2026-08-11 测速截图显示协议为 Shadowsocks"
+    ],
+    "resolution": "同时记录品牌文本 Trojan 与 2026-08-11 测速截图 Shadowsocks，标注不同测试/订阅批次可能存在协议差异。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-007",
+    "brandId": "yuzhou",
+    "brandName": "宇宙云",
+    "field": "实测数据与核心特色记录差异",
+    "values": [
+      "主清单 #10 标注“暂无可核实实测数据、使用方式待核实”",
+      "汇总表标注“IEPL+VLESS+自研客户端”，且 2026-08-11 资料包中实际存在《宇宙云-节点测速实测.png》（VLESS，主端4.3.3/喵速4.7.0）"
+    ],
+    "resolution": "主档案标明套餐明细仍待补充，同时接入 2026-08-11 原始截图作为历史测速证据并注明清单文本缺口。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-008",
+    "brandId": "lingmao",
+    "brandName": "灵猫网络",
+    "field": "优惠码与月付入门价",
+    "values": [
+      "基础数据写“19元/月 150GB | 优惠码 lmao888”",
+      "基础信息与套餐表写“月付Small ¥25 150GB | 优惠码 lingmao（8折，年付小包不适用）”"
+    ],
+    "resolution": "套餐表保留 ¥25 月付Small 与 ¥85 年付小包，优惠码并列记录 lmao888 与 lingmao 冲突提示。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-009",
+    "brandId": "yifan",
+    "brandName": "一翻云",
+    "field": "优惠码冲突",
+    "values": [
+      "基础数据写优惠码 yfy6666",
+      "介绍正文写优惠码 1FLYYUN（9折）"
+    ],
+    "resolution": "两项优惠码均标明来源位置，标注冲突待核实。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-010",
+    "brandId": "sogo",
+    "brandName": "SOGO 云",
+    "field": "优惠码与成立时间描述",
+    "values": [
+      "基础信息写优惠码 SOGO10000（9折）",
+      "文末汇总表写优惠码 sss777，并标注“2026年新品牌”"
+    ],
+    "resolution": "记录 SOGO10000 与 sss777 两个来源值及 2026 年新品牌标注。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-011",
+    "brandId": "quanqiu",
+    "brandName": "全球云",
+    "field": "优惠码与协议/年份",
+    "values": [
+      "基础信息写优惠码 qq88（8折）、协议 Trojan / Shadowsocks",
+      "汇总表写优惠码 qqy7777，标注“2026年新品牌”；2026-08-11 截图显示 Shadowsocks"
+    ],
+    "resolution": "并列记录优惠码冲突与协议来源。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-012",
+    "brandId": "kexin",
+    "brandName": "可信云",
+    "field": "2026-08-11 测速截图日期置信度",
+    "values": [
+      "speedtest-manifest.json 标注可信云截图仅底部显示 15:32:35 CST，完整年月日被裁切，按压缩包批次暂记为 2026-08-11"
+    ],
+    "resolution": "前台展示可信云 2026-08-11 测速证据时，强制显示批次日期推断与复核提示。",
+    "status": "待核实",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-013",
+    "brandId": "yunjiexian",
+    "brandName": "云界线",
+    "field": "推广链接格式与邀请码差异",
+    "values": [
+      "正文注册链接为 https://qwerty.yunjiexianaff.com/?code=aycnwNUi（缺少 #/）",
+      "文末汇总表为 https://qwerty.yunjiexianaff.com/?code=HBaZ91c6（同样缺少 #/）"
+    ],
+    "resolution": "主用正文邀请码并保留汇总表差异记录，提醒用户访问前核查链接跳转有效性。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-014",
+    "brandId": "huanqiuti",
+    "brandName": "环球梯",
+    "field": "推广链接格式异常",
+    "values": [
+      "https://qwerty.huanqiutiaff.com/?code=9I4KRNPH（缺少 #/ 哈希路由前缀）"
+    ],
+    "resolution": "保留原始链接并在界面中注明格式特殊、注册前需核实能否正常打开。",
+    "status": "待核实",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-015",
+    "brandId": "yinxingren",
+    "brandName": "隐形人",
+    "field": "月付基础流量、优惠码与设备限制",
+    "values": [
+      "顶部摘要写“24元/月 100GB/月 | 优惠码 yxr888”",
+      "基础信息与套餐表写“白银纪元 ¥24 144GB | 优惠码 moon80（8折）”，且同时出现“不限设备”与“设备数量以套餐而定”"
+    ],
+    "resolution": "采用套餐明细表 ¥24/144GB，优惠码、设备限制与“1小时修复承诺”均标明来源与待核实状态。",
+    "status": "来源冲突",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-016",
+    "brandId": "lingdong",
+    "brandName": "灵动云",
+    "field": "协议混合标注与定制套餐流量遮挡",
+    "values": [
+      "实测标注 VLESS，站点文案混提 VLESS/trojan",
+      "至尊私人定制 ¥620/月 流量字段标注“截图遮挡”"
+    ],
+    "resolution": "如实标注协议混提情况与定制套餐流量未获完整截图记录。",
+    "status": "待核实",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-017",
+    "brandId": "langwang",
+    "brandName": "浪网",
+    "field": "入门套餐流量遮挡与多字段缺失",
+    "values": [
+      "浪网入门档流量标注“截150G”（截图遮挡），且协议、设备限制、节点地区与实测数据均缺省"
+    ],
+    "resolution": "入门流量标注“约150G（截图遮挡待核实）”，其余缺省字段保持待核实。",
+    "status": "待核实",
+    "detectedAt": "2026-11-26"
+  },
+  {
+    "conflictId": "CF-018",
+    "brandId": "global",
+    "brandName": "快狸（目录外资产记录）",
+    "field": "测速包及 Logo 目录存在但不在 31 家品牌清单内",
+    "values": [
+      "logos/kuaili_logo.png 与 2026-08-11 测速包《快狸-节点测速实测.png》存在，但 32家机场品牌清单.txt 与核心 31 品牌名单未纳入快狸"
+    ],
+    "resolution": "严格遵循不虚构或擅自扩容 31 品牌之外实体的原则，仅在来源审计报告中记录该资产归档状态。",
+    "status": "审计说明",
+    "detectedAt": "2026-11-26"
+  }
+]

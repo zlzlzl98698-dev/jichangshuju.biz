@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-11-26T09:10:53.462Z",
+  "totalTrackedKeywords": 71,
+  "byPriority": {
+    "S": 14,
+    "A": 33,
+    "B": 23,
+    "C": 1
+  },
+  "cannibalizationAlerts": [],
+  "brandExpansionCandidates": [
+    {
+      "keyword": "暮光加速 评测与套餐",
+      "entityId": "muguang",
+      "targetUrl": "/brands/muguang",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "飞猫云 评测与套餐",
+      "entityId": "feimao",
+      "targetUrl": "/brands/feimao",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "微风网络 评测与套餐",
+      "entityId": "weifeng",
+      "targetUrl": "/brands/weifeng",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "大佬云 评测与套餐",
+      "entityId": "dalaoyun",
+      "targetUrl": "/brands/dalaoyun",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "星岛梦 评测与套餐",
+      "entityId": "xingdaomeng",
+      "targetUrl": "/brands/xingdaomeng",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "隐形人 评测与套餐",
+      "entityId": "yinxingren",
+      "targetUrl": "/brands/yinxingren",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "二猫云 评测与套餐",
+      "entityId": "ermao",
+      "targetUrl": "/brands/ermao",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "无忧链接 评测与套餐",
+      "entityId": "wuyou",
+      "targetUrl": "/brands/wuyou",
+      "priority": "A",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "宇宙云 评测与套餐",
+      "entityId": "yuzhou",
+      "targetUrl": "/brands/yuzhou",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "U1S1 评测与套餐",
+      "entityId": "u1s1",
+      "targetUrl": "/brands/u1s1",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "灵猫网络 评测与套餐",
+      "entityId": "lingmao",
+      "targetUrl": "/brands/lingmao",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "极连云 评测与套餐",
+      "entityId": "jilian",
+      "targetUrl": "/brands/jilian",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "光年梯 评测与套餐",
+      "entityId": "guangnian",
+      "targetUrl": "/brands/guangnian",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "一翻云 评测与套餐",
+      "entityId": "yifan",
+      "targetUrl": "/brands/yifan",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "SOGO 云 评测与套餐",
+      "entityId": "sogo",
+      "targetUrl": "/brands/sogo",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "可信云 评测与套餐",
+      "entityId": "kexin",
+      "targetUrl": "/brands/kexin",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "速界 评测与套餐",
+      "entityId": "sujie",
+      "targetUrl": "/brands/sujie",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "闪跃 评测与套餐",
+      "entityId": "shanyue",
+      "targetUrl": "/brands/shanyue",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "全球云 评测与套餐",
+      "entityId": "quanqiu",
+      "targetUrl": "/brands/quanqiu",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "闪电鼠 评测与套餐",
+      "entityId": "shandianshu",
+      "targetUrl": "/brands/shandianshu",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "云界线 评测与套餐",
+      "entityId": "yunjiexian",
+      "targetUrl": "/brands/yunjiexian",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "榴莲云 评测与套餐",
+      "entityId": "liulianyun",
+      "targetUrl": "/brands/liulianyun",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "神行加速 评测与套餐",
+      "entityId": "shenxing",
+      "targetUrl": "/brands/shenxing",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "环球梯 评测与套餐",
+      "entityId": "huanqiuti",
+      "targetUrl": "/brands/huanqiuti",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "梯子云 评测与套餐",
+      "entityId": "tiziyun",
+      "targetUrl": "/brands/tiziyun",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "浪网 评测与套餐",
+      "entityId": "langwang",
+      "targetUrl": "/brands/langwang",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    },
+    {
+      "keyword": "边缘节点 EdgeNova 评测与套餐",
+      "entityId": "edgenova",
+      "targetUrl": "/brands/edgenova",
+      "priority": "B",
+      "reason": "Brand review page exists; add long-tail brand query tracking"
+    }
+  ],
+  "upgradeCandidates": [],
+  "pendingVerificationTopics": []
+}

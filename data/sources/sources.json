@@ -1,0 +1,51 @@
+[
+  {
+    "sourceId": "src-brand-roster-32",
+    "title": "32家机场品牌清单.txt",
+    "category": "vendor",
+    "observedAt": "2026-10-19",
+    "notes": "主清单与补充记录共包含32个条目；将 Firefly 与 Firefly 萤火虫合并为同一品牌实体后，去重共计31个独立机场品牌。文中多数测速表原文标注为 2026-10-19 非晚高峰；灵动云、浪网、边缘节点 EdgeNova 与 Firefly 萤火虫部分字段标注来源日期为 2026-08-09。"
+  },
+  {
+    "sourceId": "src-guangsuyun-brief",
+    "title": "光速云品牌信息.txt",
+    "category": "vendor",
+    "observedAt": "2026-10-19",
+    "notes": "光速云核心品牌与套餐明细资料，记录致敬斯诺克147永久套餐、轻量版、极速版、定制版及节点分布、协议、支付与推广参数。"
+  },
+  {
+    "sourceId": "src-clients-2026",
+    "title": "第三方代理客户端.txt",
+    "category": "editorial",
+    "observedAt": "2026-10-19",
+    "notes": "覆盖 Windows、Android、iOS/iPadOS、macOS、Linux 与 OpenWrt 六大平台的通用代理客户端与项目来源说明。"
+  },
+  {
+    "sourceId": "src-speedtest-zip-20260811",
+    "title": "机场测速实测资料包_2026-08-11_发布整理版_V2.zip",
+    "category": "measured",
+    "observedAt": "2026-08-11",
+    "notes": "包含 16 张 1122x1402 PNG 节点测速截图及 README、speedtest-manifest.json（SHA-256: 22BBBCDF4AE9F2D82DADAD9EFCBB55DBFEE6681720B0032EB31BB92C66F0D9D4）。属于单日不同时间点快照，不代表长期稳定性或 AI/流媒体解锁。"
+  },
+  {
+    "sourceId": "src-guangsuyun-miaoko-20260819",
+    "title": "光速云测试图解锁图（MiaoKo 截图批次）",
+    "category": "measured",
+    "observedAt": "2026-08-19",
+    "notes": "5 张 MiaoKo 测速与基础流媒体截图：含 SC-长沙电信@2Gbps（62节点 SS）、SC-广西移动@2Gbps（62节点 SS）、河北联通@2Gbps（62节点 SS）、珠海联通9Gbps单线程基础流媒体（70节点 VLESS/AnyTLS）及珠海联通9Gbps单线程订阅测速（70节点 VLESS）。"
+  },
+  {
+    "sourceId": "src-chart-spec",
+    "title": "机场品牌图表样式.txt",
+    "category": "editorial",
+    "observedAt": "2026-10-19",
+    "notes": "Dark Network Observatory 图表与状态语言设计规范；禁止将示例数字冒充品牌实测结果。"
+  },
+  {
+    "sourceId": "src-content-matrix",
+    "title": "内容矩阵.txt",
+    "category": "editorial",
+    "observedAt": "2026-11-26",
+    "notes": "定义机场品牌库数据结构、关键词边界、SEO/GEO 合规与内部链接矩阵规范。"
+  }
+]
